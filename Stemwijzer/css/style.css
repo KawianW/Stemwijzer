@@ -1,0 +1,34 @@
+body {
+    background-image: url("../img/background-stemwijzer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.w3-container {
+    width: 65%;
+    height: 100vh;
+    background-color: #ffffff;
+    position: absolute;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 4%;
+    right: 0;
+}
+.container-inner {
+padding: 30px;
+}
+.logo_img {
+    width: 50%;
+}
+.side-bar {
+background-color: #01B4DC;
+width: 80%;
+height: 102vh;
+float: right;
+margin-right: 10%;
+margin-bottom: 20px;
+}
+.color_tekst {
+    color: #01B4DC;
+}
