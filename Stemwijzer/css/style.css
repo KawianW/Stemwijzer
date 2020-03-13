@@ -1,34 +1,127 @@
 body {
+    width: 100%;
     background-image: url("../img/background-stemwijzer.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     position: relative;
-}
-.w3-container {
-    width: 65%;
-    height: 100vh;
-    background-color: #ffffff;
-    position: absolute;
+  }
+  
+  .content-wrapper {
+    width: 100%;
+    margin-top: 26px;
+    padding-left: 90px;
+    padding-right: 90px;
+  }
+  
+  .content-inside {
+    width: 88%;
+    margin: 0 auto;
+    background-color: white;
+  }
+  
+  .header-container {
+    padding: 60px 60px 0px 60px;
+  }
+  
+  .stellingContainer {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  
+  .img-container {
+    width: 300px;
     display: block;
-    top: 0;
-    bottom: 0;
-    left: 4%;
-    right: 0;
-}
-.container-inner {
-padding: 30px;
-}
-.logo_img {
-    width: 50%;
-}
-.side-bar {
-background-color: #01B4DC;
-width: 80%;
-height: 102vh;
-float: right;
-margin-right: 10%;
-margin-bottom: 20px;
-}
-.color_tekst {
-    color: #01B4DC;
-}
+    cursor: pointer;
+  }
+  
+  .title {
+    margin: 0px;
+    font-weight: bold;
+  }
+  
+  .subTitle {
+    font-weight: bold;
+    color: rgb(1, 180, 220);
+  }
+  
+  .stellingImg {
+    width: 50px;
+    float: left;
+  }
+  
+  .linkContainer {
+    cursor: pointer;
+  }
+  
+  .rowContainer {
+    display: table;
+    margin-top: 50px;
+  }
+  
+  .anchorText {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 20px;
+    padding-right: 42%;
+  }
+  
+  .btn {
+    float: right;
+    margin-right: 60px;
+    width: 180px;
+    height: 60px;
+    margin-top: 50px;
+  }
+  
+  .trackerContainer {
+    padding: 60px;
+  }
+  
+  .trackerTitle {
+    text-decoration: none;
+  }
+  
+  .trackerTitle:hover {
+    text-decoration: underline;
+  }
+  
+  .partijContainer {
+    background-color: rgb(1, 180, 220);
+    padding-left: 170px;
+    padding-right: 170px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .eenVandaagImg {
+    width: 200px;
+  }
+  
+  .partij {
+    background-color: white;
+    border-radius: 50%;
+    display: block;
+    padding: 2px;
+    width: 50px;
+    float: left;
+    margin-left: 16px;
+    margin-top: 10px;
+    overflow: hidden;
+    text-align: center;
+    transition: 0.2s;
+  }
+  
+  .partij:hover {
+    box-shadow: rgba(0, 0, 0, 0.8) 0 0 5px;
+    transform: scale(1.8);
+    cursor: pointer;
+  }
+  
+  .imgFormat {
+    width: 45px;
+  }
+  
+  .geenPartij {
+    margin-top: 170px;
+  }
