@@ -125,3 +125,118 @@ body {
   .geenPartij {
     margin-top: 170px;
   }
+  
+  footer {
+    position: absolute;
+    margin-top: 30px;
+    width: 76%;
+    padding-bottom: 20px;
+  }
+  
+  .leftCont {
+    float: left;
+  }
+  
+  .rightCont {
+    float: right;
+  }
+  
+  .footerImg {
+    width: 160px;
+  }
+  
+  /* Stelling style */
+  .stellingPage {
+    display: none;
+  }
+  .navigationBack {
+    margin-top: 15px;
+  }
+
+  .navigationBack > button {
+    cursor: pointer;
+  }
+  
+  .progressBar {
+    overflow: none;
+    border-top: 8px solid rgb(1, 180, 220);
+  }
+  
+  .iconBack {
+    border-radius: 50%;
+  }
+  
+  .stellingSection {
+    padding-left: 110px;
+    padding-right: 110px;
+    padding-top: 20px;
+  }
+  
+  .opinionContainer {
+    height: 140px;
+  }
+  
+  .hoverEffect:hover {
+    cursor: pointer;
+  }
+  
+  #partyOpinion {
+    display: none;
+  }
+  
+  .opinions {
+    text-align: left;
+    border-bottom: 2px solid black;
+    width: 85%;
+  }
+  
+  #partyOpinionTitle {
+    margin: 0px;
+  }
+  
+  #opinionContainer {
+    margin-top: 50px;
+  }
+  
+  .opinion {
+    border-bottom: 1px solid black;
+    width: 85%;
+    padding-bottom: 16px;
+  }
+  
+  .description {
+    font-size: 12px;
+  }
+  
+  .dropBtn:hover {
+    cursor: pointer;
+  }
+  
+  .importantContainer {
+    display: none;
+    padding: 60px;
+  }
+  
+  .checkboxInput{
+      float: left;
+      height: 22px;
+  }
+  
+  .partyCheckbox{
+      margin-left: 18px;
+  }
+  
+  #resultContainer{
+    padding: 60px;
+    display: none;
+    height: 300px;
+  }
+  
+  .placeContainer{
+  }
+  
+  .resultTitle{
+  }
+  
+  .place{
+  }
