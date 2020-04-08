@@ -39,6 +39,10 @@ body {
     margin: 0px;
     font-weight: bold;
   }
+
+  .titleImg {
+    width: 300px;
+  }
   
   .subTitle {
     font-weight: bold;
@@ -230,13 +234,4 @@ body {
     padding: 60px;
     display: none;
     height: 300px;
-  }
-  
-  .placeContainer{
-  }
-  
-  .resultTitle{
-  }
-  
-  .place{
   }
