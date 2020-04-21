@@ -23,3 +23,17 @@ function nextStatement(){
     stellingDescription.innerHTML = subjects[statementOrder].statement;
   }
 }
+
+  function previousStatement(){
+    //als je terug wilt dat de vorige vraag tevoorschijn komt
+    //de statements terughalen
+
+    if(statementOrder !== 0){
+        statementOrder--;
+        stellingTitle.innerHTML = subjects[statementOrder].title;
+        stellingDescription.innerHTML = subjects[statementOrder].statement;
+    }else{
+        document.getElementById("stellingPage").style.display = "none";
+        document.getElementById("homePage").style.display = "block";
+    }
+}
