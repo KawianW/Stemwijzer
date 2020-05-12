@@ -98,3 +98,44 @@ function displayPartyPage() {
   }
 }
 
+function getAllParties() {
+  checkSelectParty('all')
+  topParties = [];
+  topParties = parties;
+}
+
+function getSecularParties() {
+  checkSelectParty('secular')
+  topParties = [];
+  topParties = parties.filter(party=>{
+    return party.secular == true;
+  })
+}
+
+function getBigParties() {
+  checkSelectParty('big')
+  topParties = [];
+  topParties = parties.filter(party=>{
+    return party.size >= bigParty;
+  })
+}
+
+function checkSelectParty(partyID) {
+  for(var f = 0; f <document.getElementsByClassName('filterParty').length; f++) {
+    document.getElementsByClassName('filterParty')[f].style.background = 'white';
+  }
+  document.getElementById(partyID).style.background = 'green';
+}
+
+function showResultPage() {
+  if(topParties.length == 0) {
+    return alert("klik op een van de onderstaande knoppen!");
+  }
+  document.getElementById("partyPage").style.display = "none";
+  document.getElementById("resultContainer").style.display = "block";
+
+  document.getElementById('1stPlace').innerHTML += topParties[0].name;
+  document.getElementById('2ndPlace').innerHTML += topParties[1].name;
+  document.getElementById('3rdPlace').innerHTML += topParties[2].name;
+}
+
