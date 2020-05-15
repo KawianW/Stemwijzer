@@ -139,3 +139,17 @@ function showResultPage() {
   document.getElementById('3rdPlace').innerHTML += topParties[2].name;
 }
 
+function showAnswer(answer) {
+  document.getElementById('important').checked = false;
+  for(var f = 0; f <document.getElementsByClassName('answerbtn').length; f++) {
+    document.getElementsByClassName('answerbtn')[f].style.background = 'white';
+  }
+  if(subjects[statementOrder].important == true){
+    document.getElementById('important').checked = true;
+  }
+  if(answer == ''){
+    return
+  } else {
+    document.getElementById(answer).style.background = 'green';
+  }
+}
