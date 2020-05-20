@@ -219,6 +219,7 @@ body {
   .partyPage {
     display: none;
     padding: 60px;
+    background-color: white;
   }
   
   .checkboxInput{
@@ -234,4 +235,5 @@ body {
     padding: 60px;
     display: none;
     height: 300px;
+    background-color: white;
   }
